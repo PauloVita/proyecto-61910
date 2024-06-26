@@ -68,6 +68,8 @@ a {
     flex-direction: column;
     align-items: baseline;
     gap: 32px;
+    padding: 16px;
+    margin: 20px 0px;
 }
 
 .nprod h2 {
@@ -79,12 +81,24 @@ a {
     margin: 0px 100px;
 }
 
-.nprod img {
+.ban img {
     background-color: #f4edf3;
     width: 60%;
 }
+.ban div a{
+    font-size: medium;
+    color:#f4edf3 ;
+    background-color: #f4a261;
+    padding: 8px 10px;
+    border-radius: 16px;
+    margin: 0px 3px;
+}
 
-
+.ban div {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
 
 /*pagina de productos*/
 .prod img {
@@ -104,22 +118,47 @@ a {
 }
 
 /*pagina productos*/
+
+.mod {
+    margin: 25px;
+    color: #f4a261;
+    font-size: 30px;
+}
 .productos {
-    display: flex;
+display: flex;
+flex-wrap: wrap;
+margin: 20px;
 }
 .productos div img{ 
     width: 300px;
 }
-
-.col1 {
-    width: 100%;
-
+.productos div {
+    margin: 32px;
 }
-.col1 {
+
+/*footer*/
+footer {
+    background-color: #f4a261;
+    margin: 100px 0px 0px ;
+    height: 20vh;
     display: flex;
-    ;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #f4edf3;
+}
+footer h2 {
+    margin: 4px 0px;
+}
+.medios-de-pago ul li {
+    display: flex; 
+}
+.redes {
+    margin: 6px;
+}
+.redes ul {
+    display: flex;
+    justify-content: space-evenly;
 }
 
-.col1 li img {
-    width: 300px;
-}
+
