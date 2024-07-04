@@ -134,8 +134,6 @@ a {
     margin: 20px 30px;
 }
 
-/*pagina productos*/
-
 .mod {
     margin: 25px;
     color: #f4a261;
@@ -196,6 +194,10 @@ footer {
 .redes ul li i {
     font-size: 2rem;
 }
+button {
+    border-radius: 16px;
+
+}
 
 /*formulario*/
 
@@ -204,11 +206,19 @@ footer {
     flex-direction: column;
     align-items: center;
     gap: 3rem;
+    margin-top: 2rem;
+    color: #f4a261;
 }
 .formulario div {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     gap: 5rem;
-    margin: 5px;
+    margin: 8px;
 }
+.formulario {
+border-style:solid;
+border-color: #f4a261;
+}
+
+
